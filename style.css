@@ -58,3 +58,25 @@ img {
 }
 
 
+.info-table {
+    color: hsl(30, 10%, 34%);
+    font-size: 16px;
+    padding-top: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.info-row {
+    display: flex;
+    margin-bottom: 12px;
+}
+
+.info-row div {
+    width: 50%;
+}
+
+.info-row .value {
+    color:hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
