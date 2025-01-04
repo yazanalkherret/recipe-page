@@ -28,7 +28,7 @@ ol, ul, p {
 }
 
 #primary-card {
-    padding: 24px;
+    padding: 32px;
     border-radius: 16px;
     background-color: white;
     margin: auto;
@@ -44,6 +44,13 @@ img {
 .container {
     margin: 16px 0px;
 }
+
+hr {
+    border: 0; 
+    border-top: 1px solid hsl(30, 54%, 90%); 
+    margin: 20px 0; 
+}
+
 
 #secondary-card {
     background-color: hsl(330, 100%, 98%);
@@ -62,8 +69,7 @@ img {
     color: hsl(30, 10%, 34%);
     font-size: 16px;
     padding-top: 24px;
-    padding-left: 24px;
-    padding-right: 24px;
+
 }
 
 .info-row {
